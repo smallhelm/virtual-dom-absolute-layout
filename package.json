@@ -1,0 +1,41 @@
+{
+  "name": "virtual-dom-absolute-layout",
+  "version": "1.0.0",
+  "description": "Easy way to layout elements via absolute positioning",
+  "main": "index.js",
+  "files": [
+    "index.js",
+    "make-layout-proportions.js"
+  ],
+  "scripts": {
+    "start": "wzrd example.js",
+    "test": "node tests.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/smallhelm/virtual-dom-absolute-layout.git"
+  },
+  "keywords": [
+    "virtual-dom",
+    "vdom",
+    "virtual-hyperscript",
+    "h",
+    "absolute",
+    "layout"
+  ],
+  "author": "smallhelm",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/smallhelm/virtual-dom-absolute-layout/issues"
+  },
+  "homepage": "https://github.com/smallhelm/virtual-dom-absolute-layout#readme",
+  "devDependencies": {
+    "browserify": "^11.2.0",
+    "tape": "^4.2.2",
+    "virtual-dom": "^2.1.1",
+    "wzrd": "^1.3.1"
+  },
+  "dependencies": {
+    "lodash.isnumber": "^3.0.1"
+  }
+}
